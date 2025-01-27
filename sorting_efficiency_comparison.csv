@@ -1,0 +1,406 @@
+Algorithm,Scenario,Input Size,Steps,Execution Time (ms),Asymptotic Notation
+Bubble Sort,sorted,10,10,0.00667572021484375,O(n^2)
+Insertion Sort,sorted,10,27,0.003814697265625,O(n^2)
+Merge Sort,sorted,10,121,0.016689300537109375,O(n log n)
+Quick Sort,sorted,10,93,0.009298324584960938,"O(n log n) (avg), O(n^2) (worst)"
+Heap Sort,sorted,10,221,0.013113021850585938,O(n log n)
+Selection Sort,sorted,10,75,0.0054836273193359375,O(n^2)
+Radix Sort,sorted,10,230,0.016689300537109375,O(n * d)
+Counting Sort,sorted,10,134,0.0069141387939453125,O(n + k)
+
+Bubble Sort,random,10,126,0.029325485229492188,O(n^2)
+Insertion Sort,random,10,75,0.0133514404296875,O(n^2)
+Merge Sort,random,10,124,0.031948089599609375,O(n log n)
+Quick Sort,random,10,77,0.01049041748046875,"O(n log n) (avg), O(n^2) (worst)"
+Heap Sort,random,10,187,0.017642974853515625,O(n log n)
+Selection Sort,random,10,84,0.009298324584960938,O(n^2)
+Radix Sort,random,10,230,0.024318695068359375,O(n * d)
+Counting Sort,random,10,134,0.01049041748046875,O(n + k)
+
+Bubble Sort,reversed,10,189,0.0133514404296875,O(n^2)
+Insertion Sort,reversed,10,117,0.009059906005859375,O(n^2)
+Merge Sort,reversed,10,117,0.017404556274414062,O(n log n)
+Quick Sort,reversed,10,69,0.00858306884765625,"O(n log n) (avg), O(n^2) (worst)"
+Heap Sort,reversed,10,150,0.0133514404296875,O(n log n)
+Selection Sort,reversed,10,100,0.008821487426757812,O(n^2)
+Radix Sort,reversed,10,230,0.019550323486328125,O(n * d)
+Counting Sort,reversed,10,134,0.008344650268554688,O(n + k)
+
+Bubble Sort,sorted,20,20,0.003337860107421875,O(n^2)
+Insertion Sort,sorted,20,57,0.0045299530029296875,O(n^2)
+Merge Sort,sorted,20,312,0.049114227294921875,O(n log n)
+Quick Sort,sorted,20,234,0.014781951904296875,"O(n log n) (avg), O(n^2) (worst)"
+Heap Sort,sorted,20,604,0.030040740966796875,O(n log n)
+Selection Sort,sorted,20,250,0.03552436828613281,O(n^2)
+Radix Sort,sorted,20,400,0.016927719116210938,O(n * d)
+Counting Sort,sorted,20,264,0.00667572021484375,O(n + k)
+
+Bubble Sort,random,20,446,0.033855438232421875,O(n^2)
+Insertion Sort,random,20,215,0.011205673217773438,O(n^2)
+Merge Sort,random,20,331,0.029087066650390625,O(n log n)
+Quick Sort,random,20,182,0.0152587890625,"O(n log n) (avg), O(n^2) (worst)"
+Heap Sort,random,20,525,0.043392181396484375,O(n log n)
+Selection Sort,random,20,283,0.018835067749023438,O(n^2)
+Radix Sort,random,20,400,0.016927719116210938,O(n * d)
+Counting Sort,random,20,264,0.007152557373046875,O(n + k)
+
+Bubble Sort,reversed,20,779,0.025510787963867188,O(n^2)
+Insertion Sort,reversed,20,437,0.024080276489257812,O(n^2)
+Merge Sort,reversed,20,304,0.02193450927734375,O(n log n)
+Quick Sort,reversed,20,172,0.008106231689453125,"O(n log n) (avg), O(n^2) (worst)"
+Heap Sort,reversed,20,454,0.01621246337890625,O(n log n)
+Selection Sort,reversed,20,350,0.012874603271484375,O(n^2)
+Radix Sort,reversed,20,400,0.015497207641601562,O(n * d)
+Counting Sort,reversed,20,264,0.0064373016357421875,O(n + k)
+
+Bubble Sort,sorted,30,30,0.0019073486328125,O(n^2)
+Insertion Sort,sorted,30,87,0.0030994415283203125,O(n^2)
+Merge Sort,sorted,30,521,0.024318695068359375,O(n log n)
+Quick Sort,sorted,30,372,0.011920928955078125,"O(n log n) (avg), O(n^2) (worst)"
+Heap Sort,sorted,30,1047,0.03147125244140625,O(n log n)
+Selection Sort,sorted,30,525,0.028848648071289062,O(n^2)
+Radix Sort,sorted,30,570,0.023365020751953125,O(n * d)
+Counting Sort,sorted,30,394,0.013589859008789062,O(n + k)
+
+Bubble Sort,random,30,1109,0.09036064147949219,O(n^2)
+Insertion Sort,random,30,517,0.024080276489257812,O(n^2)
+Merge Sort,random,30,558,0.030517578125,O(n log n)
+Quick Sort,random,30,378,0.013828277587890625,"O(n log n) (avg), O(n^2) (worst)"
+Heap Sort,random,30,932,0.04458427429199219,O(n log n)
+Selection Sort,random,30,587,0.026941299438476562,O(n^2)
+Radix Sort,random,30,570,0.03838539123535156,O(n * d)
+Counting Sort,random,30,394,0.010967254638671875,O(n + k)
+
+Bubble Sort,reversed,30,1769,0.07605552673339844,O(n^2)
+Insertion Sort,reversed,30,957,0.04172325134277344,O(n^2)
+Merge Sort,reversed,30,515,0.025033950805664062,O(n log n)
+Quick Sort,reversed,30,262,0.011205673217773438,"O(n log n) (avg), O(n^2) (worst)"
+Heap Sort,reversed,30,784,0.03337860107421875,O(n log n)
+Selection Sort,reversed,30,750,0.026702880859375,O(n^2)
+Radix Sort,reversed,30,570,0.020742416381835938,O(n * d)
+Counting Sort,reversed,30,394,0.010251998901367188,O(n + k)
+
+Bubble Sort,sorted,40,40,0.0021457672119140625,O(n^2)
+Insertion Sort,sorted,40,117,0.003814697265625,O(n^2)
+Merge Sort,sorted,40,764,0.033855438232421875,O(n log n)
+Quick Sort,sorted,40,573,0.018358230590820312,"O(n log n) (avg), O(n^2) (worst)"
+Heap Sort,sorted,40,1540,0.07152557373046875,O(n log n)
+Selection Sort,sorted,40,900,0.0514984130859375,O(n^2)
+Radix Sort,sorted,40,740,0.04673004150390625,O(n * d)
+Counting Sort,sorted,40,524,0.022411346435546875,O(n + k)
+
+Bubble Sort,random,40,1824,0.11801719665527344,O(n^2)
+Insertion Sort,random,40,787,0.046253204345703125,O(n^2)
+Merge Sort,random,40,808,0.04363059997558594,O(n log n)
+Quick Sort,random,40,507,0.02002716064453125,"O(n log n) (avg), O(n^2) (worst)"
+Heap Sort,random,40,1395,0.045299530029296875,O(n log n)
+Selection Sort,random,40,988,0.04100799560546875,O(n^2)
+Radix Sort,random,40,740,0.03218650817871094,O(n * d)
+Counting Sort,random,40,524,0.014543533325195312,O(n + k)
+
+Bubble Sort,reversed,40,3159,0.09703636169433594,O(n^2)
+Insertion Sort,reversed,40,1677,0.05888938903808594,O(n^2)
+Merge Sort,reversed,40,748,0.03218650817871094,O(n log n)
+Quick Sort,reversed,40,415,0.016689300537109375,"O(n log n) (avg), O(n^2) (worst)"
+Heap Sort,reversed,40,1136,0.03695487976074219,O(n log n)
+Selection Sort,reversed,40,1300,0.0457763671875,O(n^2)
+Radix Sort,reversed,40,740,0.027179718017578125,O(n * d)
+Counting Sort,reversed,40,524,0.012874603271484375,O(n + k)
+
+Bubble Sort,sorted,50,50,0.0026226043701171875,O(n^2)
+Insertion Sort,sorted,50,147,0.0045299530029296875,O(n^2)
+Merge Sort,sorted,50,1011,0.042438507080078125,O(n log n)
+Quick Sort,sorted,50,765,0.02384185791015625,"O(n log n) (avg), O(n^2) (worst)"
+Heap Sort,sorted,50,2069,0.06031990051269531,O(n log n)
+Selection Sort,sorted,50,1375,0.055789947509765625,O(n^2)
+Radix Sort,sorted,50,910,0.034332275390625,O(n * d)
+Counting Sort,sorted,50,654,0.015974044799804688,O(n + k)
+
+Bubble Sort,random,50,2984,0.1766681671142578,O(n^2)
+Insertion Sort,random,50,1287,0.0514984130859375,O(n^2)
+Merge Sort,random,50,1086,0.05745887756347656,O(n log n)
+Quick Sort,random,50,649,0.024080276489257812,"O(n log n) (avg), O(n^2) (worst)"
+Heap Sort,random,50,1787,0.05626678466796875,O(n log n)
+Selection Sort,random,50,1506,0.06365776062011719,O(n^2)
+Radix Sort,random,50,910,0.03719329833984375,O(n * d)
+Counting Sort,random,50,654,0.01621246337890625,O(n + k)
+
+Bubble Sort,reversed,50,4949,0.18978118896484375,O(n^2)
+Insertion Sort,reversed,50,2597,0.09083747863769531,O(n^2)
+Merge Sort,reversed,50,991,0.04124641418457031,O(n log n)
+Quick Sort,reversed,50,553,0.021457672119140625,"O(n log n) (avg), O(n^2) (worst)"
+Heap Sort,reversed,50,1540,0.04887580871582031,O(n log n)
+Selection Sort,reversed,50,2000,0.07009506225585938,O(n^2)
+Radix Sort,reversed,50,910,0.032901763916015625,O(n * d)
+Counting Sort,reversed,50,654,0.015497207641601562,O(n + k)
+
+Bubble Sort,sorted,100,100,0.00476837158203125,O(n^2)
+Insertion Sort,sorted,100,297,0.009059906005859375,O(n^2)
+Merge Sort,sorted,100,2372,0.08869171142578125,O(n log n)
+Quick Sort,sorted,100,1818,0.051975250244140625,"O(n log n) (avg), O(n^2) (worst)"
+Heap Sort,sorted,100,4940,0.15091896057128906,O(n log n)
+Selection Sort,sorted,100,5250,0.2524852752685547,O(n^2)
+Radix Sort,sorted,100,2590,0.12040138244628906,O(n * d)
+Counting Sort,sorted,100,1304,0.04673004150390625,O(n + k)
+
+Bubble Sort,random,100,11760,0.6492137908935547,O(n^2)
+Insertion Sort,random,100,4771,0.19288063049316406,O(n^2)
+Merge Sort,random,100,2565,0.1125335693359375,O(n log n)
+Quick Sort,random,100,1654,0.05507469177246094,"O(n log n) (avg), O(n^2) (worst)"
+Heap Sort,random,100,4393,0.19121170043945312,O(n log n)
+Selection Sort,random,100,5555,0.3800392150878906,O(n^2)
+Radix Sort,random,100,2590,0.2086162567138672,O(n * d)
+Counting Sort,random,100,1304,0.046253204345703125,O(n + k)
+
+Bubble Sort,reversed,100,19899,0.6945133209228516,O(n^2)
+Insertion Sort,reversed,100,10197,0.3681182861328125,O(n^2)
+Merge Sort,reversed,100,2332,0.09417533874511719,O(n log n)
+Quick Sort,reversed,100,1300,0.045299530029296875,"O(n log n) (avg), O(n^2) (worst)"
+Heap Sort,reversed,100,3852,0.11515617370605469,O(n log n)
+Selection Sort,reversed,100,7750,0.2856254577636719,O(n^2)
+Radix Sort,reversed,100,2590,0.10585784912109375,O(n * d)
+Counting Sort,reversed,100,1304,0.03218650817871094,O(n + k)
+
+Bubble Sort,sorted,200,200,0.00858306884765625,O(n^2)
+Insertion Sort,sorted,200,597,0.018358230590820312,O(n^2)
+Merge Sort,sorted,200,5444,0.22339820861816406,O(n log n)
+Quick Sort,sorted,200,4221,0.17118453979492188,"O(n log n) (avg), O(n^2) (worst)"
+Heap Sort,sorted,200,11530,0.44846534729003906,O(n log n)
+Selection Sort,sorted,200,20500,0.9243488311767578,O(n^2)
+Radix Sort,sorted,200,5090,0.23889541625976562,O(n * d)
+Counting Sort,sorted,200,2604,0.06270408630371094,O(n + k)
+
+Bubble Sort,random,200,48284,1.779317855834961,O(n^2)
+Insertion Sort,random,200,19387,0.6899833679199219,O(n^2)
+Merge Sort,random,200,5910,0.3178119659423828,O(n log n)
+Quick Sort,random,200,3593,0.14400482177734375,"O(n log n) (avg), O(n^2) (worst)"
+Heap Sort,random,200,10463,0.4954338073730469,O(n log n)
+Selection Sort,random,200,21277,1.2943744659423828,O(n^2)
+Radix Sort,random,200,5090,0.2071857452392578,O(n * d)
+Counting Sort,random,200,2604,0.14138221740722656,O(n + k)
+
+Bubble Sort,reversed,200,79799,2.4690628051757812,O(n^2)
+Insertion Sort,reversed,200,40397,1.8277168273925781,O(n^2)
+Merge Sort,reversed,200,5364,0.19979476928710938,O(n log n)
+Quick Sort,reversed,200,2989,0.12111663818359375,"O(n log n) (avg), O(n^2) (worst)"
+Heap Sort,reversed,200,9122,0.3886222839355469,O(n log n)
+Selection Sort,reversed,200,30500,1.657724380493164,O(n^2)
+Radix Sort,reversed,200,5090,0.35262107849121094,O(n * d)
+Counting Sort,reversed,200,2604,0.10085105895996094,O(n + k)
+
+Bubble Sort,sorted,300,300,0.021219253540039062,O(n^2)
+Insertion Sort,sorted,300,897,0.056743621826171875,O(n^2)
+Merge Sort,sorted,300,8772,0.5786418914794922,O(n log n)
+Quick Sort,sorted,300,6726,0.3914833068847656,"O(n log n) (avg), O(n^2) (worst)"
+Heap Sort,sorted,300,18688,0.6787776947021484,O(n log n)
+Selection Sort,sorted,300,45750,2.1066665649414062,O(n^2)
+Radix Sort,sorted,300,7590,0.3218650817871094,O(n * d)
+Counting Sort,sorted,300,3904,0.10013580322265625,O(n + k)
+
+Bubble Sort,random,300,109712,5.702972412109375,O(n^2)
+Insertion Sort,random,300,43939,1.9574165344238281,O(n^2)
+Merge Sort,random,300,9571,0.6721019744873047,O(n log n)
+Quick Sort,random,300,6368,0.2589225769042969,"O(n log n) (avg), O(n^2) (worst)"
+Heap Sort,random,300,17027,0.8192062377929688,O(n log n)
+Selection Sort,random,300,47090,3.4673213958740234,O(n^2)
+Radix Sort,random,300,7590,0.41985511779785156,O(n * d)
+Counting Sort,random,300,3904,0.10204315185546875,O(n + k)
+
+Bubble Sort,reversed,300,179699,6.705760955810547,O(n^2)
+Insertion Sort,reversed,300,90597,4.019498825073242,O(n^2)
+Merge Sort,reversed,300,8644,0.6270408630371094,O(n log n)
+Quick Sort,reversed,300,4724,0.29015541076660156,"O(n log n) (avg), O(n^2) (worst)"
+Heap Sort,reversed,300,15156,0.6952285766601562,O(n log n)
+Selection Sort,reversed,300,68250,2.6175975799560547,O(n^2)
+Radix Sort,reversed,300,7590,0.30231475830078125,O(n * d)
+Counting Sort,reversed,300,3904,0.09632110595703125,O(n + k)
+
+Bubble Sort,sorted,400,400,0.02193450927734375,O(n^2)
+Insertion Sort,sorted,400,1197,0.04363059997558594,O(n^2)
+Merge Sort,sorted,400,12288,0.46443939208984375,O(n log n)
+Quick Sort,sorted,400,9624,0.5002021789550781,"O(n log n) (avg), O(n^2) (worst)"
+Heap Sort,sorted,400,26190,0.9703636169433594,O(n log n)
+Selection Sort,sorted,400,81000,3.857851028442383,O(n^2)
+Radix Sort,sorted,400,10090,0.46372413635253906,O(n * d)
+Counting Sort,sorted,400,5204,0.1251697540283203,O(n + k)
+
+Bubble Sort,random,400,205560,11.192560195922852,O(n^2)
+Insertion Sort,random,400,84771,3.4956932067871094,O(n^2)
+Merge Sort,random,400,13407,0.614166259765625,O(n log n)
+Quick Sort,random,400,9390,0.29778480529785156,"O(n log n) (avg), O(n^2) (worst)"
+Heap Sort,random,400,23691,0.7197856903076172,O(n log n)
+Selection Sort,random,400,82892,5.108118057250977,O(n^2)
+Radix Sort,random,400,10090,0.5018711090087891,O(n * d)
+Counting Sort,random,400,5204,0.13971328735351562,O(n + k)
+
+Bubble Sort,reversed,400,319599,10.457754135131836,O(n^2)
+Insertion Sort,reversed,400,160797,6.186008453369141,O(n^2)
+Merge Sort,reversed,400,12128,0.45108795166015625,O(n log n)
+Quick Sort,reversed,400,6766,0.24819374084472656,"O(n log n) (avg), O(n^2) (worst)"
+Heap Sort,reversed,400,21508,0.6949901580810547,O(n log n)
+Selection Sort,reversed,400,121000,4.530906677246094,O(n^2)
+Radix Sort,reversed,400,10090,0.3962516784667969,O(n * d)
+Counting Sort,reversed,400,5204,0.125885009765625,O(n + k)
+
+Bubble Sort,sorted,500,500,0.026702880859375,O(n^2)
+Insertion Sort,sorted,500,1497,0.056743621826171875,O(n^2)
+Merge Sort,sorted,500,15736,0.5595684051513672,O(n log n)
+Quick Sort,sorted,500,12024,0.33855438232421875,"O(n log n) (avg), O(n^2) (worst)"
+Heap Sort,sorted,500,33944,1.0051727294921875,O(n log n)
+Selection Sort,sorted,500,126250,6.928205490112305,O(n^2)
+Radix Sort,sorted,500,12590,0.5123615264892578,O(n * d)
+Counting Sort,sorted,500,6504,0.18095970153808594,O(n + k)
+
+Bubble Sort,random,500,311345,13.866901397705078,O(n^2)
+Insertion Sort,random,500,125561,5.999088287353516,O(n^2)
+Merge Sort,random,500,17316,0.6861686706542969,O(n log n)
+Quick Sort,random,500,10802,0.35309791564941406,"O(n log n) (avg), O(n^2) (worst)"
+Heap Sort,random,500,31128,0.9217262268066406,O(n log n)
+Selection Sort,random,500,128610,6.586313247680664,O(n^2)
+Radix Sort,random,500,12590,0.8392333984375,O(n * d)
+Counting Sort,random,500,6504,0.19550323486328125,O(n + k)
+
+Bubble Sort,reversed,500,499499,26.70907974243164,O(n^2)
+Insertion Sort,reversed,500,250997,40.23003578186035,O(n^2)
+Merge Sort,reversed,500,15680,1.0957717895507812,O(n log n)
+Quick Sort,reversed,500,8268,0.6148815155029297,"O(n log n) (avg), O(n^2) (worst)"
+Heap Sort,reversed,500,28098,1.7480850219726562,O(n log n)
+Selection Sort,reversed,500,188750,19.3789005279541,O(n^2)
+Radix Sort,reversed,500,12590,1.0962486267089844,O(n * d)
+Counting Sort,reversed,500,6504,0.3561973571777344,O(n + k)
+
+Bubble Sort,sorted,1000,1000,0.1354217529296875,O(n^2)
+Insertion Sort,sorted,1000,2997,0.24652481079101562,O(n^2)
+Merge Sort,sorted,1000,34972,2.5670528411865234,O(n log n)
+Quick Sort,sorted,1000,27027,1.6674995422363281,"O(n log n) (avg), O(n^2) (worst)"
+Heap Sort,sorted,1000,75966,5.462169647216797,O(n log n)
+Selection Sort,sorted,1000,502500,90.81315994262695,O(n^2)
+Radix Sort,sorted,1000,33120,1.5039443969726562,O(n * d)
+Counting Sort,sorted,1000,13004,0.5142688751220703,O(n + k)
+
+Bubble Sort,random,1000,1242759,77.14605331420898,O(n^2)
+Insertion Sort,random,1000,497837,40.18235206604004,O(n^2)
+Merge Sort,random,1000,38662,2.425670623779297,O(n log n)
+Quick Sort,random,1000,25379,3.284454345703125,"O(n log n) (avg), O(n^2) (worst)"
+Heap Sort,random,1000,70120,3.5920143127441406,O(n log n)
+Selection Sort,random,1000,507930,41.573524475097656,O(n^2)
+Radix Sort,random,1000,33120,1.5478134155273438,O(n * d)
+Counting Sort,random,1000,13004,0.3986358642578125,O(n + k)
+
+Bubble Sort,reversed,1000,1998999,96.25864028930664,O(n^2)
+Insertion Sort,reversed,1000,1001997,99.70235824584961,O(n^2)
+Merge Sort,reversed,1000,34860,2.156496047973633,O(n log n)
+Quick Sort,reversed,1000,18525,1.409769058227539,"O(n log n) (avg), O(n^2) (worst)"
+Heap Sort,reversed,1000,63760,2.981901168823242,O(n log n)
+Selection Sort,reversed,1000,752500,57.318925857543945,O(n^2)
+Radix Sort,reversed,1000,33120,2.168893814086914,O(n * d)
+Counting Sort,reversed,1000,13004,0.49877166748046875,O(n + k)
+
+Bubble Sort,sorted,2000,2000,0.217437744140625,O(n^2)
+Insertion Sort,sorted,2000,5997,0.24819374084472656,O(n^2)
+Merge Sort,sorted,2000,76944,3.5130977630615234,O(n log n)
+Quick Sort,sorted,2000,60030,2.320528030395508,"O(n log n) (avg), O(n^2) (worst)"
+Heap Sort,sorted,2000,167200,9.023427963256836,O(n log n)
+Selection Sort,sorted,2000,2005000,174.38316345214844,O(n^2)
+Radix Sort,sorted,2000,66120,5.525112152099609,O(n * d)
+Counting Sort,sorted,2000,26004,1.0380744934082031,O(n + k)
+
+Bubble Sort,random,2000,4985474,453.3424377441406,O(n^2)
+Insertion Sort,random,2000,1995647,146.67344093322754,O(n^2)
+Merge Sort,random,2000,85302,5.281925201416016,O(n log n)
+Quick Sort,random,2000,56824,2.9325485229492188,"O(n log n) (avg), O(n^2) (worst)"
+Heap Sort,random,2000,156373,11.175394058227539,O(n log n)
+Selection Sort,random,2000,2017193,196.55179977416992,O(n^2)
+Radix Sort,random,2000,66120,3.2715797424316406,O(n * d)
+Counting Sort,random,2000,26004,0.7948875427246094,O(n + k)
+
+Bubble Sort,reversed,2000,7997999,448.83155822753906,O(n^2)
+Insertion Sort,reversed,2000,4003997,208.6331844329834,O(n^2)
+Merge Sort,reversed,2000,76720,2.5861263275146484,O(n log n)
+Quick Sort,reversed,2000,41038,1.5883445739746094,"O(n log n) (avg), O(n^2) (worst)"
+Heap Sort,reversed,2000,144108,4.760980606079102,O(n log n)
+Selection Sort,reversed,2000,3005000,158.5249900817871,O(n^2)
+Radix Sort,reversed,2000,66120,2.9146671295166016,O(n * d)
+Counting Sort,reversed,2000,26004,0.7071495056152344,O(n + k)
+
+Bubble Sort,sorted,3000,3000,0.17976760864257812,O(n^2)
+Insertion Sort,sorted,3000,8997,0.34546852111816406,O(n^2)
+Merge Sort,sorted,3000,122788,3.906726837158203,O(n log n)
+Quick Sort,sorted,3000,98607,3.033161163330078,"O(n log n) (avg), O(n^2) (worst)"
+Heap Sort,sorted,3000,268318,7.882595062255859,O(n log n)
+Selection Sort,sorted,3000,4507500,276.8902778625488,O(n^2)
+Radix Sort,sorted,3000,99120,5.751371383666992,O(n * d)
+Counting Sort,sorted,3000,39004,1.80816650390625,O(n + k)
+
+Bubble Sort,random,3000,11151242,803.6446571350098,O(n^2)
+Insertion Sort,random,3000,4442159,243.5770034790039,O(n^2)
+Merge Sort,random,3000,135538,5.38182258605957,O(n log n)
+Quick Sort,random,3000,95081,3.072977066040039,"O(n log n) (avg), O(n^2) (worst)"
+Heap Sort,random,3000,249179,8.235692977905273,O(n log n)
+Selection Sort,random,3000,4527424,247.9255199432373,O(n^2)
+Radix Sort,random,3000,99120,4.776716232299805,O(n * d)
+Counting Sort,random,3000,39004,1.1126995086669922,O(n + k)
+
+Bubble Sort,reversed,3000,17996999,769.8729038238525,O(n^2)
+Insertion Sort,reversed,3000,9005997,543.236494064331,O(n^2)
+Merge Sort,reversed,3000,121540,7.401227951049805,O(n log n)
+Quick Sort,reversed,3000,68321,5.506038665771484,"O(n log n) (avg), O(n^2) (worst)"
+Heap Sort,reversed,3000,229846,11.681079864501953,O(n log n)
+Selection Sort,reversed,3000,6757500,303.96389961242676,O(n^2)
+Radix Sort,reversed,3000,99120,5.331516265869141,O(n * d)
+Counting Sort,reversed,3000,39004,1.1053085327148438,O(n + k)
+
+Bubble Sort,sorted,4000,4000,0.2906322479248047,O(n^2)
+Insertion Sort,sorted,4000,11997,0.4894733428955078,O(n^2)
+Merge Sort,sorted,4000,167888,7.348060607910156,O(n log n)
+Quick Sort,sorted,4000,132033,4.332780838012695,"O(n log n) (avg), O(n^2) (worst)"
+Heap Sort,sorted,4000,370738,11.253833770751953,O(n log n)
+Selection Sort,sorted,4000,8010000,591.418981552124,O(n^2)
+Radix Sort,sorted,4000,132120,6.576776504516602,O(n * d)
+Counting Sort,sorted,4000,52004,1.398324966430664,O(n + k)
+
+Bubble Sort,random,4000,19905981,974.4753837585449,O(n^2)
+Insertion Sort,random,4000,7947985,361.27328872680664,O(n^2)
+Merge Sort,random,4000,186506,6.260395050048828,O(n log n)
+Quick Sort,random,4000,136947,3.995656967163086,"O(n log n) (avg), O(n^2) (worst)"
+Heap Sort,random,4000,345478,10.491371154785156,O(n log n)
+Selection Sort,random,4000,8037896,424.5767593383789,O(n^2)
+Radix Sort,random,4000,132120,5.84721565246582,O(n * d)
+Counting Sort,random,4000,52004,1.3515949249267578,O(n + k)
+
+Bubble Sort,reversed,4000,31995999,1341.6180610656738,O(n^2)
+Insertion Sort,reversed,4000,16007997,824.1157531738281,O(n^2)
+Merge Sort,reversed,4000,167440,5.688190460205078,O(n log n)
+Quick Sort,reversed,4000,90059,3.139019012451172,"O(n log n) (avg), O(n^2) (worst)"
+Heap Sort,reversed,4000,320294,9.488582611083984,O(n log n)
+Selection Sort,reversed,4000,12010000,514.2247676849365,O(n^2)
+Radix Sort,reversed,4000,132120,5.924224853515625,O(n * d)
+Counting Sort,reversed,4000,52004,1.4133453369140625,O(n + k)
+
+Bubble Sort,sorted,5000,5000,0.32591819763183594,O(n^2)
+Insertion Sort,sorted,5000,14997,0.6031990051269531,O(n^2)
+Merge Sort,sorted,5000,217428,7.314920425415039,O(n log n)
+Quick Sort,sorted,5000,173178,5.629062652587891,"O(n log n) (avg), O(n^2) (worst)"
+Heap Sort,sorted,5000,477540,14.518022537231445,O(n log n)
+Selection Sort,sorted,5000,12512500,696.786642074585,O(n^2)
+Radix Sort,sorted,5000,165120,7.322072982788086,O(n * d)
+Counting Sort,sorted,5000,65004,1.585245132446289,O(n + k)
+
+Bubble Sort,random,5000,31224527,1448.0218887329102,O(n^2)
+Insertion Sort,random,5000,12496349,599.1253852844238,O(n^2)
+Merge Sort,random,5000,240614,10.718584060668945,O(n log n)
+Quick Sort,random,5000,178718,6.04557991027832,"O(n log n) (avg), O(n^2) (worst)"
+Heap Sort,random,5000,444594,12.831449508666992,O(n log n)
+Selection Sort,random,5000,12547149,636.1770629882812,O(n^2)
+Radix Sort,random,5000,165120,7.953643798828125,O(n * d)
+Counting Sort,random,5000,65004,1.9824504852294922,O(n + k)
+
+Bubble Sort,reversed,5000,49994999,2089.259147644043,O(n^2)
+Insertion Sort,reversed,5000,25009997,1826.0366916656494,O(n^2)
+Merge Sort,reversed,5000,215228,16.121387481689453,O(n log n)
+Quick Sort,reversed,5000,119442,9.910345077514648,"O(n log n) (avg), O(n^2) (worst)"
+Heap Sort,reversed,5000,413400,36.0260009765625,O(n log n)
+Selection Sort,reversed,5000,18762500,929.304838180542,O(n^2)
+Radix Sort,reversed,5000,165120,7.820606231689453,O(n * d)
+Counting Sort,reversed,5000,65004,1.966714859008789,O(n + k)
+
